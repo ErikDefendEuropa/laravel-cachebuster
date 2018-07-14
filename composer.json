@@ -20,7 +20,7 @@
             "src/migrations"
         ],
         "psr-0": {
-            "ErikDefendEuropa\\Cachebuster": "src/"
+            "Themonkeys\\Cachebuster": "src/"
         }
     },
     "minimum-stability": "dev"
