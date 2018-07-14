@@ -1,7 +1,7 @@
 {
-    "name": "themonkeys/cachebuster",
+    "name": "ErikDefendEuropa/cachebuster",
     "description": "Adds MD5 hashes to the URLs of your application's assets, so when they change, their URL changes.",
-    "homepage": "http://github.com/TheMonkeys/laravel-cachebuster",
+    "homepage": "http://github.com/ErikDefendEuropa/laravel-cachebuster",
     "keywords": ["assets", "cachebuster", "cdn", "laravel"],
     "license": "MIT",
     "authors": [
@@ -13,14 +13,14 @@
     "require": {
         "php": ">=5.4.0",
         "illuminate/support": "4.*|5.*",
-        "symfony/http-kernel": "2.*|3.*"
+        "symfony/http-kernel": "2.*|3.*|4.*"
     },
     "autoload": {
         "classmap": [
             "src/migrations"
         ],
         "psr-0": {
-            "Themonkeys\\Cachebuster": "src/"
+            "ErikDefendEuropa\\Cachebuster": "src/"
         }
     },
     "minimum-stability": "dev"
